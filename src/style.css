@@ -1,0 +1,107 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.react-window{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.react-window h1 {
+    text-align: center;
+    color: #404040;
+}
+.header{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(142, 227, 238);
+    padding: 15px;
+}
+.header .col-search input,.header .other-search input{
+    padding: 8px;
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 3px;
+}
+.row{
+    display: flex;
+    width: 100%;
+}
+.col-12{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table {
+    width: 100%;
+}
+.thead{
+    width: 100%;
+    display: flex;
+    background-color: rgb(34, 72, 240);
+}
+.tbody{
+    width: 100%;
+    border-left: 1px solid rgb(218, 214, 214);;
+}
+.col-12 {
+    padding: 8px 10px;
+    text-align: center;
+    color: #404040;
+    font-weight: 500;
+}
+.th{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+.th:last-child{
+    margin-right: 18px;
+}
+
+.row.tr1 {
+    background-color: beige;
+    border-bottom: 1px solid rgb(218, 214, 214);
+}
+
+.row.tr2 {
+    background-color: rgb(236, 236, 230);
+    border-bottom: 1px solid rgb(218, 214, 214);
+}
+
+.td span.deactive {
+    background-color: rgb(230, 111, 81) !important;
+}
+
+.td span.delete {
+    background-color: rgb(241, 77, 36) !important;
+}
+
+.td span.edit {
+    background-color: rgb(109, 230, 29) !important;
+}
+.td .action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 5px;
+}
+
+.td span {
+    background-color: rgb(76, 231, 76);
+    font-size: 13px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.td img {
+    width: 50px;
+    height: 50px;
+}
